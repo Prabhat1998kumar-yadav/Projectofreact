@@ -1,0 +1,14 @@
+.productContainer{
+    width: calc(100vw - 100px);
+    margin-inline: auto;
+    margin-top: 10px;
+}
+
+.productContainer ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   justify-content: center;
+   align-content: center;
+   gap: 10px;
+}

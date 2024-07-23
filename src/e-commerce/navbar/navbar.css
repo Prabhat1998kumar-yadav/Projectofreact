@@ -1,0 +1,27 @@
+.navContainer{
+    width: calc(100vw - 100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(128, 62, 0);
+    color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    margin-inline: auto;
+    border-radius: 5px;
+}
+.icon{
+    width: 80px;
+    font-size: 40px;    
+    position: relative;
+}
+.cartIcon{
+    color: rgb(0, 88, 139);
+}
+.cartNumber{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: rgb(0, 88, 139);
+    font-weight: 700;
+}
